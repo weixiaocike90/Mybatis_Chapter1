@@ -2,7 +2,7 @@ package com.learn.mybatis.chapter1.pojo;
 
 public class Role {
 
-	private Long id;
+	private int id;
 	
 	private String roleName;
 	
@@ -11,14 +11,14 @@ public class Role {
 	/**
 	 * @return the id
 	 */
-	public Long getId() {
+	public int getId() {
 		return id;
 	}
 
 	/**
 	 * @param id the id to set
 	 */
-	public void setId(Long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
