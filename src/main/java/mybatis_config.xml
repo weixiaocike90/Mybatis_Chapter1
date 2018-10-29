@@ -28,6 +28,6 @@
   		</environments>
   	
   	<mappers>
-  			<mapper resource="com/learn/mybatis/chapter1/pojo/RoleMapper.xml"/>
+  			<mapper resource="com/learn/mybatis/chapter1/pojo/role.xml"/>
   		</mappers>
   </configuration>

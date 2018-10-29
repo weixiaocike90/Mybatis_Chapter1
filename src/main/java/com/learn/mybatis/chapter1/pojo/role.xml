@@ -5,6 +5,7 @@
   <mapper namespace="com.learn.mybatis.chapter1.mapper.RoleMapper">
   
   	<select id="getRole" parameterType="int" resultType="com.learn.mybatis.chapter1.pojo.Role">
-  		select id, role_name as roleName, note from role where id = #{id}
+  		<!-- select id, role_name as roleName, note from role where id = #{id} -->
+  		select id, role_name as roleName,note from role where id = #{id}
   	</select>
   </mapper>

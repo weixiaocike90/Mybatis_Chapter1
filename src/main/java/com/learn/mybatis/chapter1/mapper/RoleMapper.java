@@ -1,6 +1,6 @@
 package com.learn.mybatis.chapter1.mapper;
 
-import javax.management.relation.Role;
+import com.learn.mybatis.chapter1.pojo.Role;
 
 public interface RoleMapper {
 
